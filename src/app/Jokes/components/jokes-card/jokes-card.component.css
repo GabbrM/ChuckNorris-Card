@@ -21,3 +21,18 @@
     max-width: 100%; /* Una tarjeta por fila en pantallas pequeñas */
   }
 }
+
+
+#main-container {
+  text-align: left;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para el título */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
