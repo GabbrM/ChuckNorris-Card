@@ -1,0 +1,11 @@
+<div class="card-container">
+  <mat-card *ngFor="let joke of jokes" class="example-card">
+    <mat-card-header>
+      <mat-card-subtitle>ID: {{ joke.id }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ joke.value }}</p>
+      <p>Category: {{ jokeCategories[joke.id] }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

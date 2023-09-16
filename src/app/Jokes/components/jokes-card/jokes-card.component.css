@@ -1,0 +1,23 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example-card {
+  flex: 1;
+  margin: 10px;
+  max-width: calc(33.33% - 20px); /* Esto hace que las tarjetas sean 3 por fila en pantallas grandes */
+}
+
+@media (max-width: 768px) {
+  .example-card {
+    max-width: calc(50% - 20px); /* Cambia a 2 por fila en pantallas medianas */
+  }
+}
+
+@media (max-width: 480px) {
+  .example-card {
+    max-width: 100%; /* Una tarjeta por fila en pantallas pequeñas */
+  }
+}

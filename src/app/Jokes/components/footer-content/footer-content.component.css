@@ -1,0 +1,10 @@
+.footer-center{
+  text-align: center;
+  margin:auto;
+  display:table;
+}
+
+#footer {
+  background: darkgreen;
+  color: white;
+}
